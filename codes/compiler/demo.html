@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+</head>
+<script src="./the-super-tiny-compiler.min.js"></script>
+<script type="text/javascript">
+	const input  = '(add 2 (subtract 4 2))';
+	const output = 'add(2, subtract(4, 2));';
+	console.log(compiler(input))
+</script>
+<body>
+
+</body>
+</html>
